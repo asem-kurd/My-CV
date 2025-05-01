@@ -4,13 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="stayle.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
     />
     <style>
-      
+      * {
+    font-family: "Outfit", sans-serif;
+  }
+  body {
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  .header p {
+    margin: 5px 0;
+    color: #666;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section h2 {
+    font-size: 26px;
+    color: #000000;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 5px;
+  }
+  .section p,
+  .section ul {
+    margin: 10px 0;
+    color: #000000;
+  }
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .section ul li {
+    padding: 5px 0;
+  }
+  .section ul li::before {
+    content: "• ";
+    color: #4caf50;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: #4caf50;
+  }
+  h2,
+  p {
+    text-align: left;
+  }
+  @media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    .header h1 {
+      font-size: 24px;
+    }
+    .section h2 {
+      font-size: 20px;
+    }
+  }
     </style>
   </head>
   <body>
@@ -18,19 +91,26 @@
       <div class="header">
         <h1>Asem Rami Mohamed Alkurdi</h1>
         <a href="tel:+962797493629">📞 0797493629</a> |
-        <a href="mailto:asem.vip10@gmail.com">✉️ asem.vip10@gmail.com</a>
+        <a href="mailto:asem.vip10@gmail.com">✉️ asem.vip10@gmail.com</a> |
+        <a href="https://github.com/asem-kurd">GitHub</a>
       </div>
 
       <div class="section">
         <h2>Objective</h2>
-        <p>
-          Web developer with a year of experience in modern drag-and-drop
-          platforms like WordPress and Joomla. I've dabbled in PHP, wrestled
-          with SQL Server, and can spruce up images in Photoshop or edit videos
-          in Adobe Premiere. I aim to build big, impactful websites that make
-          life easier for users and turn complex tasks into a simple,
-          click-and-done experience.
+
+        <b>💻 Web & Mobile Dev | Turning Clicks into Magic</b>
+        <p style="padding-left: 15px; font-weight: 250">
+          1+ year building <b>WordPress/Joomla</b> sites, wrangling
+          <b>PHP/SQL</b>, and polishing visuals in <b>Photoshop/Premiere</b>.
+          Passionate about making tech simple & impactful.
         </p>
+        <b>📱 Also a Flutter + GetX dev, currently Learning in C# & .NET.</b>
+        <p style="padding-left: 15px; font-weight: 250">
+          Let's build something sleek, powerful, and user-friendly—because
+          complexity should never slow you down. Simplify. Build. #ِAK. ✨
+        </p>
+
+        <p />
       </div>
 
       <div class="section">
@@ -40,27 +120,6 @@
             <strong>Al-Hussein Bin Talal University</strong> (Still a student)
             <p style="padding-left: 15px; font-weight: 250">
               Bachelor of Computer Science Degree
-            </p>
-          </li>
-          <li>
-            <strong>Introduction to the world of programming Course</strong>
-            (2021)
-            <p style="padding-left: 15px; font-weight: 250">
-              Introduction to the world of programming Barmej.com
-              <a
-                href="https://app.barmej.com/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%8A-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9"
-                >Certificate</a
-              >
-            </p>
-          </li>
-          <li>
-            <strong>Photoshop Course</strong> (2021)
-            <p style="padding-left: 15px; font-weight: 250">
-              Photoshop principles Udemy.com
-              <a
-                href="https://www.udemy.com/course/photoshop-web-design-build-your-portfolio/"
-                >Certificate</a
-              >
             </p>
           </li>
         </ul>
@@ -92,16 +151,48 @@
       <div class="section">
         <h2>Skills</h2>
         <ul>
-          <li>CMS (Joomla, WordPress)</li>
+          <li>
+            <strong>Introduction to the world of programming Course</strong>
+            (2021)
+            <p style="padding-left: 15px; font-weight: 250">
+              Introduction to the world of programming Barmej.com
+              <a
+                href="https://app.barmej.com/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%8A-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9"
+                >Certificate</a
+              >
+            </p>
+          </li>
+          <li>
+            <strong>Photoshop Course</strong> (2021)
+            <p style="padding-left: 15px; font-weight: 250">
+              Photoshop principles Udemy.com
+              <a
+                href="https://www.udemy.com/course/photoshop-web-design-build-your-portfolio/"
+                >Certificate</a
+              >
+            </p>
+          </li>
+          <li>
+            <strong>CMS</strong>
+            <p style="padding-left: 15px; font-weight: 250">
+              Joomla, WordPress
+              <a href="https://mostaql.com/u/asem_alkurdi/portfolio"
+                >Protfolio</a
+              >
+            </p>
+          </li>
           <li>Adobe (Photoshop, Premiere)</li>
-          <li>Programming (PHP, SQL Server, HTML, CSS, JS)</li>
+          <li>Programming (PHP, SQL Server, HTML, CSS, JS, Flutter, C#)</li>
+          <li>State Management: GetX</li>
+          <li>Currently Learning: .NET Web Apps</li>
+          <li>Version Control: Git&Github</li>
         </ul>
       </div>
 
       <div class="section">
         <h2>Languages</h2>
         <ul>
-          <li>English: Very good</li>
+          <li>English: Very good at speaking and writing</li>
         </ul>
       </div>
     </div>
